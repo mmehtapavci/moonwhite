@@ -1,7 +1,6 @@
 import React from 'react';
 import '../style/Navbar.css';
 
-
 function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -21,7 +20,7 @@ function Navbar() {
                         <a className="nav-link" >Pricing</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link disabled" tabindex="-1" aria-disabled="true">Disabled</a>
+                        <a className="nav-link disabled" tabIndex="-1" aria-disabled="true">Disabled</a>
                     </li>
                 </ul>
             </div>
