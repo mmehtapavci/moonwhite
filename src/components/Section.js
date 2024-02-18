@@ -1,5 +1,13 @@
+import React from 'react';
+import '../style/Section.css';
+
 function Section() {
-    return <p>selam</p>
+    return (
+        <div className="section">
+            <img src="/Bloom-3.jpg" alt="Resim açıklaması" />
+
+        </div>
+    );
 }
 
-export default Section
+export default Section;
