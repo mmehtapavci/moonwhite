@@ -4,7 +4,7 @@ import '../style/Section.css';
 function Section({ image }) {
     return (
         <div className="section image">
-            <img src={image} alt="Resim açıklaması" />
+            <img src={image} alt="Coffe" />
         </div>
     );
 }
