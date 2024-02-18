@@ -1,11 +1,10 @@
 import React from 'react';
 import '../style/Section.css';
 
-function Section() {
+function Section({ image }) {
     return (
-        <div className="section">
-            <img src="/Bloom-3.jpg" alt="Resim açıklaması" />
-
+        <div className="section image">
+            <img src={image} alt="Resim açıklaması" />
         </div>
     );
 }
