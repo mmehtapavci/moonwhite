@@ -3,8 +3,8 @@
 }
 
 .section img {
-    width: 90%; /* Resmi ekran genişliğine göre ayarla */
+    width: 80%; /* Resmi ekran genişliğine göre ayarla */
     height: 30rem; 
-    opacity: 0.8;
+    opacity: 0.7;
 }
 
