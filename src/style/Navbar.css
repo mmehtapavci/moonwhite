@@ -1,7 +1,9 @@
 .navbar-brand {
     font-family: 'PT Serif', serif;
-    letter-spacing: -2px;
+    letter-spacing: -3px;
     font-size: 30px;
+    position: relative;
+    left: 30px;
 }
 
 /* Navbar menüsü genişlik ayarı */
@@ -12,7 +14,7 @@
         left: 0;
         width: 100%;
         background-color: #f8f9fa;
-        border-top: 1px solid rgba(0, 0, 0, 0.1);
+        border-top: 1px solid rgba(136, 136, 136, 0);
         box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.1);
     }
 
@@ -27,5 +29,17 @@
 
     .navbar-nav .nav-link {
         padding: .5rem 1rem;
+       
     }
+
 }
+.nav-link{
+    letter-spacing: -1px;
+    font-family: 'PT Serif', serif;
+}
+.navbar {
+    background-color:
+    #191e25  ; 
+    
+}
+

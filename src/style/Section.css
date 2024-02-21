@@ -1,16 +1,64 @@
-.section {
-    display: flex;
-    align-items: center;
-}
-
 .content {
     flex: 1;
     padding: 20px;
-    text-align: left;
+    text-align: center;
+    display: flex;
+    align-items: flex-start; /* Yazıların başlangıç hizasını ayarla */
 }
 .section-image {
-    max-width: 90%; /* Resmin maksimum genişliğini ekran genişliğinin %60'ı olarak ayarlayın */
-    max-height: 570px; /* Resmin maksimum yüksekliğini 300 piksel olarak ayarlayın */
-    display: block; /* Resmi blok öğe olarak ayarlayın */
-    margin: 0 auto; /* Resmi ortalamak için sağ ve sol kenar boşluklarını otomatik olarak ayarlayın */
+    max-width: 100%;
+    max-height: 570px;
+    display: block;
+    margin: 0 auto; 
+    margin-right: 30px; 
+    margin-top: 10px;
+}
+
+.parent {
+        width: 350px;
+        /* height: 450%; */
+        background-color: rgba(240, 228, 252, 0.349);
+        margin-top: 10px;
+        -webkit-box-shadow: 6px 10px 5px -4px rgba(18,36,28,0.76);
+        -moz-box-shadow: 6px 10px 5px -4px rgba(18,36,28,0.76);
+        box-shadow: 6px 10px 5px -4px rgba(18,36,28,0.76);
+        position: relative;
+        left: 20px;
+}
+
+/* Küçük ekranlar için medya sorgusu */
+@media (max-width: 768px) {
+    .content {
+        padding: 20px;
+        text-align: center; /* Metni merkeze hizala */
+        align-items: center; /* Öğeleri merkeze hizala */
+        flex-direction: column; /* Metin sütun halinde görünsün */
+    }
+    
+    .parent {
+        width: 100%; /* Genişliği tam ekrana sığdır */
+        margin-top: 20px; /* Fazladan boşluk ekle */
+    }
+    
+    .section-image {
+        margin-right: 0; /* Sağdan boşluğu kaldır */
+    }
+}
+/* Büyük ekranlar için medya sorgusu */
+@media (min-width: 769px) {
+    .content {
+        flex-direction: row; /* Metin ve resmi yan yana göster */
+    }
+}
+.coffeabout {
+    font-family: 'PT Serif', serif;
+    letter-spacing: -2px;
+    text-align: center;
+    margin-top: 15px;
+}
+.about{
+    text-indent: 36px;
+    letter-spacing: -1px;
+    line-height: 39px;
+    padding: 11px;
 }
