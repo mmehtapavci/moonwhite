@@ -1,10 +1,16 @@
 .section {
-    text-align: center;
+    display: flex;
+    align-items: center;
 }
 
-.section img {
-    width: 80%; /* Resmi ekran genişliğine göre ayarla */
-    height: 30rem; 
-    opacity: 0.7;
+.content {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
 }
-
+.section-image {
+    max-width: 90%; /* Resmin maksimum genişliğini ekran genişliğinin %60'ı olarak ayarlayın */
+    max-height: 570px; /* Resmin maksimum yüksekliğini 300 piksel olarak ayarlayın */
+    display: block; /* Resmi blok öğe olarak ayarlayın */
+    margin: 0 auto; /* Resmi ortalamak için sağ ve sol kenar boşluklarını otomatik olarak ayarlayın */
+}
