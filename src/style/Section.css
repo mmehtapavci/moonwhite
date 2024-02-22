@@ -3,7 +3,7 @@
     padding: 20px;
     text-align: center;
     display: flex;
-    align-items: flex-start; /* Yazıların başlangıç hizasını ayarla */
+    align-items: flex-start;
 }
 .section-image {
     max-width: 100%;
