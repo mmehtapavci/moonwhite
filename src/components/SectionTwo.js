@@ -1,3 +1,4 @@
+User
 import React from 'react';
 import '../style/SectionTwo.css';
 
