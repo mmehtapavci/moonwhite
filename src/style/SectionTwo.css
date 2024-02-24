@@ -4,27 +4,29 @@
     box-sizing: border-box;
 }
 .box-container {
-    position: fixed;
-    top: 50%;
+    position: relative;
+    bottom: 22rem;
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
     justify-content: center; 
     align-items: center;
-    z-index: 1; 
+    z-index: 1;
 }
-
 .sectiontwo-image {
     width: 100%;
-    height: 40rem;
-    opacity: 0.7;
-    filter: blur(3px);
+    height: 42rem; /* Resmin orijinal boyutunu korumak için "auto" olarak ayarlayın */
+    max-height: 42rem; /* Maksimum yükseklik belirleyin */
+    opacity: 0.8;
+    filter: blur(1px);
 }
-
-.box {
+.boximg {
     width: 15rem;
     height: 22rem;
-    background-color: rgb(97, 97, 124);
-    margin-right: 10px;
-    opacity: 0.6;
+    margin-right: 20px; 
+    margin-bottom: 13px;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   
 }
+
