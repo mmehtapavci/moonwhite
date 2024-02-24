@@ -11,13 +11,13 @@ function Navbar() {
             <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav ml-auto">
                     <li className="nav-item">
-                        <a className="nav-link" >Anasayfa</a>
+                        <a className="nav-link" >Ürünler </a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" >Hakkımızda </a>
+                        <a className="nav-link" >Giriş Yap </a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" >İletişim </a>
+                        <a className="nav-link" >Sepet </a>
                     </li>
                 </ul>
             </div>
