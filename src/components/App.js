@@ -7,9 +7,10 @@ import SectionTwo from './SectionTwo';
 import SectionImage from '../img/Bloom-3.jpg';
 import SectionTwoImage from '../img/coff.jpg';
 import SectionTwoImage1 from '../img/boximage1.jpg';
-// import SectionTwoImage2 from '../img/boximage2.jpg';
 import SectionTwoImage3 from '../img/boximage3.jpg';
-// import SectionTwoImage4 from '../img/boximage4.jpg';
+import Footer from './Footer';
+import FooterImage from '../img/coff2.jpg';
+
 
 function App() {
     return (
@@ -24,6 +25,9 @@ function App() {
                 // boximage2={SectionTwoImage2}
                 boximage3={SectionTwoImage3}
                 // boximage4={SectionTwoImage4}
+            />
+            <Footer
+                backgroundfooter={FooterImage}
             />
         </>
     );

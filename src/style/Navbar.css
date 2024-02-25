@@ -11,8 +11,6 @@
     left: 30px;
 }
 
-
-
 /* Navbar menüsü genişlik ayarı */
 @media (max-width: 768px) {
     .collapse.navbar-collapse {
@@ -36,9 +34,7 @@
 
     .navbar-nav .nav-link {
         padding: .5rem 1rem;
-    
     }
-
 }
 .nav-link{
     letter-spacing: -1px;
