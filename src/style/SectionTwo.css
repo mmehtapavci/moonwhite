@@ -5,7 +5,7 @@
 }
 .box-container {
     position: relative;
-    bottom: 22rem;
+    bottom: 23rem;
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
@@ -24,9 +24,25 @@
     width: 15rem;
     height: 22rem;
     margin-right: 20px; 
-    margin-bottom: 13px;
+    margin-bottom: -330px;
     border-radius: 3px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-   
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 20px;
 }
 
+.box {
+    width: 15rem;
+    height: 22rem;
+    background-color: rgba(255, 255, 255, 0.527);
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 20px;
+    margin-right: 20px; 
+    position: relative;
+    top: 9rem;
+}
+
+.box-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
