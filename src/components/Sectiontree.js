@@ -1,8 +1,9 @@
 import React from 'react'
+import  '../style/Sectiontree.css';
 
 function Sectiontree() {
     return (
-        <div>
+        <div className="products">
             <h1>ürünler</h1>
         </div>
     )

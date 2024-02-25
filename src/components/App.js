@@ -9,6 +9,8 @@ import SectionTwoImage from '../img/coff.jpg';
 import SectionTwoImage1 from '../img/boximage1.jpg';
 import SectionTwoImage3 from '../img/boximage3.jpg';
 import Sectiontree from './Sectiontree';
+import Footer from './Footer';
+import FooterImage from '../img/coff2.jpg'
 
 
 
@@ -25,9 +27,12 @@ function App() {
                 boximage1={SectionTwoImage1}
                 // boximage2={SectionTwoImage2}
                 boximage3={SectionTwoImage3}
-                // boximage4={SectionTwoImage4}
+            // boximage4={SectionTwoImage4}
             />
-            <Sectiontree/>
+            <Sectiontree />
+            <Footer
+                backgroundfooter={FooterImage}
+            />
         </>
     );
 }
