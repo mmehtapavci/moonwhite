@@ -2,6 +2,12 @@ import React from 'react';
 import '../style/Navbar.css';
 
 function Navbar() {
+    // Ürünler bağlantısına tıklandığında Sectiontree bileşenine gitmesini sağlayan fonksiyon
+    const goToProducts = () => {
+        // Sectiontree bileşenine geçiş yapmak için gerekli kodlar
+        // Örnek: window.location.href = '/products';
+    };
+
     return (
         <nav className="navbar navbar-expand-lg navbar-dark">
             <a className="navbar-brand" >MoonWhite</a>
@@ -11,7 +17,7 @@ function Navbar() {
             <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav ml-auto">
                     <li className="nav-item">
-                        <a className="nav-link" >Ürünler </a>
+                        <a className="nav-link" onClick={goToProducts}>Ürünler </a>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link" >Giriş Yap </a>
