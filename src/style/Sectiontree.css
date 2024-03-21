@@ -4,3 +4,21 @@
     background-color:#182236;
     color :white;
 }
+.scrollable {
+    overflow-y: auto;
+    overflow-x: hidden; /* Yatay yönde scroll çubuğunu kaldır */
+    height: calc(130vh - 230px); /* Ekran yüksekliğinin 200 piksel eksikliği kadar genişlet */
+    width: 100%;
+}
+
+/* Scroll çubuklarını şeffaf yap */
+.scrollable::-webkit-scrollbar {
+    width: 12px; /* Scroll çubuğu genişliği */
+}
+.scrollable::-webkit-scrollbar-track {
+    background: transparent; /* Scroll çubuğu izleme yüzeyinin arka plan rengi */
+}
+.scrollable::-webkit-scrollbar-thumb {
+    background-color: rgba(248, 246, 246, 0.205); /* Scroll çubuğu rengi ve şeffaflık */
+    border-radius: 5px; /* Scroll çubuğu köşe yarıçapı */
+}
