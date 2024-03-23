@@ -6,7 +6,7 @@
 }
 .scrollable {
     overflow-y: auto;
-    overflow-x: hidden; /* Yatay yönde scroll çubuğunu kaldır */
+    overflow-x: hidden;
     height: calc(130vh - 230px); /* Ekran yüksekliğinin 200 piksel eksikliği kadar genişlet */
     width: 100%;
 }
@@ -17,10 +17,11 @@
 }
 .scrollable::-webkit-scrollbar-track {
     background: transparent; 
-   
+
 }
 .scrollable::-webkit-scrollbar-thumb {
     background-color: rgba(248, 246, 246, 0.205); /* Scroll çubuğu rengi ve şeffaflık */
-     opacity: 0.1;
+    opacity: 0.1;
     border-radius: 5px; /* Scroll çubuğu köşe yarıçapı */
 }
+

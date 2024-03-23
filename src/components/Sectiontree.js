@@ -6,7 +6,10 @@ import { Card, CardImg, CardText, CardBody, CardTitle, CardSubtitle, Button, Con
 function Sectiontree() {
     // Kartların içeriğini ve sayısını tek bir dizi içinde tanımla
     const cards = [
-        { title: "Card title 1", subtitle: "Card subtitle 1", text: "Some quick example text to build on the card title and make up the bulk of the card's content.",imgSrc:"/img/Bloom-3.jpg"},
+        {
+            title: "Card title 1", subtitle: "Card subtitle 1", text: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+            imgSrc: "/img/kruvasan.jpg"
+        },
         { title: "Card title 2", subtitle: "Card subtitle 2", text: "Some quick example text to build on the card title and make up the bulk of the card's content.", imgSrc: "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" },
         { title: "Card title 3", subtitle: "Card subtitle 3", text: "Some quick example text to build on the card title and make up the bulk of the card's content.", imgSrc: "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" },
         { title: "Card title 4", subtitle: "Card subtitle 4", text: "Some quick example text to build on the card title and make up the bulk of the card's content.", imgSrc: "https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" },
@@ -37,7 +40,6 @@ function Sectiontree() {
                 </div>
                 <div className="col-md-9">
                     <Container>
-                        {/* Kartları döngü içinde oluşturulan bölümü, ayrı bir kaydırma bölgesi içine al */}
                         <div className="scrollable">
                             <div className="row">
                                 {cards.map((card, index) => (

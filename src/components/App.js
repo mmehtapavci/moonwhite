@@ -30,7 +30,7 @@ function App() {
                 boximage3={SectionTwoImage3}
             // boximage4={SectionTwoImage4}
             />
-            <Sectiontree className="col-md-3" />
+            <Sectiontree />
             <Footer
                 backgroundfooter={FooterImage}
             />
