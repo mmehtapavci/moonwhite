@@ -13,7 +13,7 @@
 
 /* Scroll çubuklarını şeffaf yap */
 .scrollable::-webkit-scrollbar {
-    width: 12px; /* Scroll çubuğu genişliği */
+    width: 12px; 
 }
 .scrollable::-webkit-scrollbar-track {
     background: transparent; 

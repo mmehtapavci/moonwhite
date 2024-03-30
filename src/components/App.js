@@ -15,7 +15,6 @@ import FooterImage from '../img/coff2.jpg';
 
 
 
-
 function App() {
     return (
         <>
@@ -30,7 +29,7 @@ function App() {
                 boximage3={SectionTwoImage3}
             // boximage4={SectionTwoImage4}
             />
-            <Sectiontree />
+            <Sectiontree pageTitle="Ürünler" />
             <Footer
                 backgroundfooter={FooterImage}
             />
